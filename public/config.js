@@ -1,5 +1,5 @@
 window.__RUNTIME_CONFIG__ = {
-  "VITE_ORDERLY_BROKER_ID": "demo",
+  "VITE_ORDERLY_BROKER_ID": "topox",
   "VITE_ORDERLY_BROKER_NAME": "TOPOX",
   "VITE_BROKER_EOA_ADDRESS": "0xbfb4caefcf9ff655c66eea135578a7ee4215397f",
   "VITE_DISABLE_MAINNET": "false",
@@ -27,7 +27,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TWITTER_URL": "https://x.com/TopoxDex",
   "VITE_SEO_SITE_NAME": "Topox",
   "VITE_SEO_SITE_DESCRIPTION": "A Next-Generation Non-Custodial Platform for Decentralized Perpetual Trading",
-  "VITE_SEO_SITE_URL": "https://dex.orderly.network/topox-8945/",
+  "VITE_SEO_SITE_URL": "https://trade.topox.io",
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@TopoxDex",
