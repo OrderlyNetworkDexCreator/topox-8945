@@ -1,6 +1,6 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
-  --oui-font-size-base: 14.5px;
+  --oui-font-size-base: 13px;
 
   /* colors */
   --oui-color-primary: 0 170 255;
@@ -96,7 +96,7 @@
 
 html, body {
   font-family: 'Manrope', sans-serif !important;
-  font-size: 14.5px !important;
+  font-size: 13px !important;
 }
 
 .orderly-app-container,
