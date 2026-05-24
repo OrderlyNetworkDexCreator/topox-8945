@@ -87,10 +87,10 @@
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 20rem;
-  --oui-spacing-sm: 22.5rem;
-  --oui-spacing-md: 26.25rem;
-  --oui-spacing-lg: 30rem;
+  --oui-spacing-xs: 15rem;
+  --oui-spacing-sm: 20.5rem;
+  --oui-spacing-md: 24.5rem;
+  --oui-spacing-lg: 28.5rem;
   --oui-spacing-xl: 33.75rem;
 }
 
