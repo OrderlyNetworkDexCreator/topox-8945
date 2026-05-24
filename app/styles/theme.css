@@ -1,8 +1,8 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
-  --oui-font-size-base: 14px;
+  --oui-font-size-base: 13px;
 
-  /* colors */
+  /* colors - unchanged */
   --oui-color-primary: 0 170 255;
   --oui-color-primary-light: 120 220 255;
   --oui-color-primary-darken: 0 120 210;
@@ -52,7 +52,7 @@
   --oui-color-trading-profit: 16 185 129;
   --oui-color-trading-profit-contrast: 0 0 0;
 
-  /* gradients */
+  /* gradients - unchanged */
   --oui-gradient-primary-start: 0 120 210;
   --oui-gradient-primary-end: 0 220 255;
 
@@ -77,26 +77,27 @@
   --oui-gradient-neutral-start: 10 12 16;
   --oui-gradient-neutral-end: 22 26 32;
 
-  /* rounded */
+  /* rounded - more compact trading terminal style */
   --oui-rounded-sm: 2px;
   --oui-rounded: 4px;
   --oui-rounded-md: 6px;
   --oui-rounded-lg: 8px;
-  --oui-rounded-xl: 12px;
-  --oui-rounded-2xl: 16px;
+  --oui-rounded-xl: 10px;
+  --oui-rounded-2xl: 12px;
   --oui-rounded-full: 9999px;
 
-  /* spacing */
-  --oui-spacing-xs: 10rem;
-  --oui-spacing-sm: 12;
-  --oui-spacing-md: 16rem;
-  --oui-spacing-lg: 20rem;
-  --oui-spacing-xl: 24rem;
+  /* spacing - tighter professional layout */
+  --oui-spacing-xs: 4px;
+  --oui-spacing-sm: 6px;
+  --oui-spacing-md: 8px;
+  --oui-spacing-lg: 10px;
+  --oui-spacing-xl: 12px;
 }
 
-html, body {
+html,
+body {
   font-family: 'Manrope', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 13px !important;
 }
 
 .orderly-app-container,
@@ -104,4 +105,128 @@ html, body {
 .orderly-app-container *::before,
 .orderly-app-container *::after {
   font-family: 'Manrope', sans-serif !important;
+  box-sizing: border-box;
+}
+
+/* General terminal compactness */
+.orderly-app-container {
+  font-size: 13px !important;
+  line-height: 1.25 !important;
+}
+
+/* Reduce large panels and cards */
+.orderly-app-container [class*="panel"],
+.orderly-app-container [class*="card"],
+.orderly-app-container [class*="box"],
+.orderly-app-container [class*="container"] {
+  border-radius: 8px !important;
+}
+
+/* Compact buttons */
+.orderly-app-container button,
+.orderly-app-container [role="button"] {
+  min-height: 30px !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+/* Compact inputs */
+.orderly-app-container input,
+.orderly-app-container textarea,
+.orderly-app-container select {
+  min-height: 30px !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+}
+
+/* Tabs / filters / small pills */
+.orderly-app-container [class*="tab"],
+.orderly-app-container [class*="filter"],
+.orderly-app-container [class*="pill"],
+.orderly-app-container [class*="badge"] {
+  border-radius: 999px !important;
+  font-size: 11px !important;
+  min-height: 24px !important;
+}
+
+/* Tables and market rows */
+.orderly-app-container table,
+.orderly-app-container [class*="table"] {
+  font-size: 12px !important;
+}
+
+.orderly-app-container tr,
+.orderly-app-container [class*="row"] {
+  min-height: 34px !important;
+}
+
+/* Market list / sidebar density */
+.orderly-app-container [class*="market"] {
+  font-size: 12px !important;
+}
+
+.orderly-app-container [class*="symbol"] {
+  font-size: 12px !important;
+  font-weight: 800 !important;
+}
+
+/* Numbers should feel like trading terminal */
+.orderly-app-container [class*="price"],
+.orderly-app-container [class*="amount"],
+.orderly-app-container [class*="quantity"],
+.orderly-app-container [class*="volume"],
+.orderly-app-container [class*="value"] {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* Important price / main market value */
+.orderly-app-container [class*="last"],
+.orderly-app-container [class*="mark"],
+.orderly-app-container [class*="index"] {
+  font-size: 14px !important;
+  font-weight: 800 !important;
+}
+
+/* Reduce oversized headings inside app */
+.orderly-app-container h1 {
+  font-size: 18px !important;
+  line-height: 1.15 !important;
+}
+
+.orderly-app-container h2 {
+  font-size: 16px !important;
+  line-height: 1.15 !important;
+}
+
+.orderly-app-container h3 {
+  font-size: 14px !important;
+  line-height: 1.15 !important;
+}
+
+/* Better compact spacing */
+.orderly-app-container [class*="content"],
+.orderly-app-container [class*="body"],
+.orderly-app-container [class*="section"] {
+  gap: 8px !important;
+}
+
+/* Order book / trade panel style */
+.orderly-app-container [class*="order"],
+.orderly-app-container [class*="book"],
+.orderly-app-container [class*="trade"] {
+  font-size: 12px !important;
+}
+
+/* Keep chart area dominant */
+.orderly-app-container [class*="chart"] {
+  border-radius: 8px !important;
+}
+
+/* Remove overly soft marketing feel inside trading app */
+.orderly-app-container [class*="rounded-2xl"],
+.orderly-app-container [class*="rounded-xl"] {
+  border-radius: 10px !important;
 }
