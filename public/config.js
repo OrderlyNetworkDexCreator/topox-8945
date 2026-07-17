@@ -33,7 +33,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_SEO_TWITTER_HANDLE": "@TopoxDex",
   "VITE_SEO_THEME_COLOR": "#1ebee6",
   "VITE_SEO_KEYWORDS": "decentralized exchange, crypto exchange, crypto trading platform, perpetual futures trading, crypto derivatives, decentralized derivatives exchange, non custodial trading, defi trading platform, onchain trading, decentralized perpetuals, leverage trading crypto, high leverage crypto trading, advanced trading platform, professional crypto trading, crypto order book trading, deep liquidity crypto, institutional grade crypto exchange, secure crypto trading platform, web3 trading platform",
-  "VITE_AVAILABLE_LANGUAGES": "en,zh,tc,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl,ar,fa,he",
+  "VITE_AVAILABLE_LANGUAGES": "en,zh,tc,ja,es,ko,vi,de,fr,ru,pt,uk,pl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "true",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "1",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#00C896\",\"downColor\":\"#F7525F\",\"pnlUpColor\":\"#00C896\",\"pnlDownColor\":\"#F7525F\",\"chartBG\":\"#131722\"}",
